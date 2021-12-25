@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: White;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Project.Controllers.ControllerMenu">
+   <children>
+      <Label alignment="CENTER" contentDisplay="TOP" ellipsisString="" layoutX="92.0" layoutY="245.0" opacity="0.1" prefHeight="141.0" prefWidth="616.0" snapToPixel="false" text="BlackMain" textAlignment="CENTER" textOverrun="CLIP" AnchorPane.bottomAnchor="245.0" AnchorPane.leftAnchor="92.0" AnchorPane.rightAnchor="92.0" AnchorPane.topAnchor="245.0">
+         <font>
+            <Font name="Bauhaus 93" size="118.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+      </Label>
+      <TabPane prefHeight="625.0" prefWidth="800.0" stylesheets="@../Sheet.css" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <tabs>
+          <Tab fx:id="TabWorkers" styleClass="tabs" text="Workers">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: White;" />
+            </content>
+          </Tab>
+          <Tab fx:id="TabCert" styleClass="tabs" text="Certefications">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: white;" />
+            </content>
+          </Tab>
+            <Tab fx:id="TabTask" styleClass="tabs" text="Tasks">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: white;" />
+              </content>
+            </Tab>
+            <Tab fx:id="TabDic" styleClass="tabs" text="Directory of cities">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: White;" />
+              </content>
+            </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</AnchorPane>

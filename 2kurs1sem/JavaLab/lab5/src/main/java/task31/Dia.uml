@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="48.69444444444443" y="278.0">task31.Track</node>
+    <node x="223.02777777777777" y="11.5">task31.Drivable</node>
+    <node x="0.0" y="512.0">task31.TestTask31</node>
+    <node x="18.75" y="0.0">task31.Car</node>
+    <node x="232.02777777777777" y="600.5">task31.Main</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="task31.Track" target="task31.Car">
+      <point x="0.0" y="-92.0" />
+      <point x="145.19444444444443" y="253.0" />
+      <point x="153.75" y="253.0" />
+      <point x="45.0" y="114.0" />
+    </edge>
+    <edge source="task31.Main" target="task31.Track">
+      <point x="-42.0" y="-25.5" />
+      <point x="274.02777777777777" y="487.0" />
+      <point x="209.52777777777774" y="487.0" />
+      <point x="64.33333333333331" y="92.0" />
+    </edge>
+    <edge source="task31.TestTask31" target="task31.Track">
+      <point x="51.25" y="-114.0" />
+      <point x="153.75" y="487.0" />
+      <point x="145.19444444444443" y="487.0" />
+      <point x="0.0" y="92.0" />
+    </edge>
+    <edge source="task31.Main" target="task31.Drivable">
+      <point x="42.0" y="-25.5" />
+      <point x="45.0" y="102.5" />
+    </edge>
+    <edge source="task31.Track" target="task31.Drivable">
+      <point x="64.33333333333331" y="-92.0" />
+      <point x="209.52777777777774" y="253.0" />
+      <point x="268.02777777777777" y="253.0" />
+      <point x="-45.0" y="102.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8618421052631579" x="202.0" y="370.0" />
+  <SelectedNodes>
+    <node>task31.Track</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

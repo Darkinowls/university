@@ -1,0 +1,13 @@
+
+jpython:S117"TRename this local variable "A_e" to match the regular expression ^[_a-z][a-z0-9_]*$.(≈Ω´=
+ppython:S117"TRename this local variable "A_u" to match the regular expression ^[_a-z][a-z0-9_]*$.(ö’Éô˛ˇˇˇˇ
+npython:S1542
+"QRename function "calculate_A" to match the regular expression ^[a-z_][a-z0-9_]*$.(ô¬™”ˇˇˇˇˇ
+Bpython:S1481"%Remove the unused local variable "i".(≥ﬁ¶•˙ˇˇˇˇ
+=python:S1481!"%Remove the unused local variable "i".(Ûªè∑
+jpython:S1178"TRename this local variable "A_e" to match the regular expression ^[_a-z][a-z0-9_]*$.(≈Ω´=
+ppython:S1174"TRename this local variable "A_u" to match the regular expression ^[_a-z][a-z0-9_]*$.(®˜ìç˙ˇˇˇˇ
+npython:S1542'"QRename function "calculate_B" to match the regular expression ^[a-z_][a-z0-9_]*$.(¥õÏæ˚ˇˇˇˇ
+6python:S1251"Remove this commented out code.(§ö—§
+Bpython:S14816"%Remove the unused local variable "i".(≥ﬁ¶•˙ˇˇˇˇ
+=python:S1481>"%Remove the unused local variable "i".(Ûªè∑

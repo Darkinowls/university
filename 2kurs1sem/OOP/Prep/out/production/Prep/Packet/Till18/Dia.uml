@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.5" y="101.0">Packet.Till18.Father</node>
+    <node x="0.0" y="371.0">Packet.Till18.GrandSon</node>
+    <node x="19.0" y="0.0">Packet.Till18.IFamily</node>
+    <node x="22.5" y="225.0">Packet.Till18.Daf</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Packet.Till18.GrandSon" target="Packet.Till18.Daf">
+      <point x="0.0" y="-48.0" />
+      <point x="0.0" y="48.0" />
+    </edge>
+    <edge source="Packet.Till18.Daf" target="Packet.Till18.Father">
+      <point x="25.0" y="-48.0" />
+      <point x="97.5" y="200.0" />
+      <point x="108.5" y="200.0" />
+      <point x="36.0" y="37.0" />
+    </edge>
+    <edge source="Packet.Till18.Father" target="Packet.Till18.IFamily">
+      <point x="0.0" y="-37.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="130.5" y="159.5" />
+  <SelectedNodes>
+    <node>Packet.Till18.Daf</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Properties</Category>
+    <Category>Constructors</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

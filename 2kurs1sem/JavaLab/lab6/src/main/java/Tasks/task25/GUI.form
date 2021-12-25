@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Tasks.task25.GUI">
+  <grid id="27dc6" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="53bd" binding="HighPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="line" title="Font settings">
+          <font/>
+          <title-color color="-4473928"/>
+          <color color="-16773957"/>
+        </border>
+        <children>
+          <component id="c63b2" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <text value="Color :"/>
+            </properties>
+          </component>
+          <grid id="34473" binding="Grid" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="de051" class="javax.swing.JRadioButton" binding="radioBlack">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <foreground color="-16777216"/>
+                  <selected value="true"/>
+                  <text value="Black"/>
+                </properties>
+              </component>
+              <component id="9333e" class="javax.swing.JRadioButton" binding="radioRed">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <foreground color="-4517632"/>
+                  <text value="Red"/>
+                </properties>
+              </component>
+              <component id="67462" class="javax.swing.JRadioButton" binding="radioGreen">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <foreground color="-15418624"/>
+                  <text value="Green"/>
+                </properties>
+              </component>
+              <component id="eaa14" class="javax.swing.JRadioButton" binding="radioBlue">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <foreground color="-16772165"/>
+                  <text value="Blue"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <component id="96f3e" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <text value="Size :"/>
+            </properties>
+          </component>
+          <component id="27812" class="javax.swing.JTextField" binding="SizeField">
+            <constraints/>
+            <properties>
+              <text value="12"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="c4f79" binding="LowPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="line" title="Out the text">
+          <color color="-16773957"/>
+        </border>
+        <children>
+          <component id="da257" class="javax.swing.JTextPane" binding="TextPane">
+            <constraints/>
+            <properties>
+              <text value="AAAAAAAAAAAAAA"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+  <buttonGroups>
+    <group name="Group" bound="true">
+      <member id="9333e"/>
+      <member id="9333e"/>
+      <member id="eaa14"/>
+      <member id="de051"/>
+      <member id="67462"/>
+    </group>
+  </buttonGroups>
+</form>

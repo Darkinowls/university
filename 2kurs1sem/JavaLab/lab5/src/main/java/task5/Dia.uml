@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="207.0" y="664.0">task5.Main</node>
+    <node x="88.85190839694658" y="217.11450381679384">task5.Message</node>
+    <node x="151.35" y="0.0">task5.Forum</node>
+    <node x="0.0" y="598.0">task5.TestTask5</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="task5.TestTask5" target="task5.Message">
+      <point x="-46.75" y="-91.5" />
+      <point x="46.75" y="573.0" />
+      <point x="99.525" y="573.0" />
+      <point x="-72.375" y="168.5" />
+    </edge>
+    <edge source="task5.Main" target="task5.Forum">
+      <point x="56.0" y="-25.5" />
+      <point x="347.0" y="573.0" />
+      <point x="326.15" y="573.0" />
+      <point x="326.15" y="186.0" />
+      <point x="290.1" y="186.0" />
+      <point x="46.25" y="80.5" />
+    </edge>
+    <edge source="task5.Message" target="task5.Forum">
+      <point x="0.0" y="-168.5" />
+      <point x="171.9" y="186.0" />
+      <point x="197.6" y="186.0" />
+      <point x="-46.25" y="80.5" />
+    </edge>
+    <edge source="task5.Main" target="task5.Message">
+      <point x="-56.0" y="-25.5" />
+      <point x="235.0" y="573.0" />
+      <point x="196.025" y="573.0" />
+      <point x="24.125" y="168.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8177278401997503" x="187.5" y="390.5" />
+  <SelectedNodes>
+    <node>task5.Message</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

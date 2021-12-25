@@ -1,0 +1,23 @@
+.Enter {
+
+  -fx-background-radius: 20;
+
+  -fx-background-insets: 0 0 0 0, 2, 2, 2;
+  -fx-accent: #000000;
+  -fx-faint-focus-color: transparent;
+  -fx-focus-color: #373737;
+  -fx-focus-size: 2;
+
+}
+
+.tabs{
+
+}
+.table{
+
+}
+.Id{
+  -fx-border-color : grey;
+  -fx-border-radius: 3;
+
+}

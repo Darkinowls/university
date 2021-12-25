@@ -1,0 +1,1012 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="8" />
+    <option name="CUSTOM_SCOPE_NAME" value="Module 'lab5'" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="30bf9e30-cdcc-4db3-86fd-dcd58cb29dbb" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/task25/Polynomial.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/task25/Rational.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/task25/Countable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="12" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="UML Class" />
+        <option value="UML Sequence" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Data</find>
+      <find>Page</find>
+      <find>the</find>
+      <find>Has</find>
+      <find>copy</find>
+      <find>Calendar</find>
+      <find>clo</find>
+      <find>equa</find>
+      <find>checkBounds</find>
+      <find>num</find>
+      <find>lenght</find>
+      <find>getLenght</find>
+      <find>Polynom</find>
+      <find>polynomial</find>
+      <find>r</find>
+      <find>clone</find>
+      <find>check</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>Date</replace>
+      <replace>Message</replace>
+      <replace>A</replace>
+      <replace>int</replace>
+      <replace>protected</replace>
+      <replace>checkBounds</replace>
+      <replace>checkBoundsAndSet</replace>
+      <replace>checkBoundsAndReturn</replace>
+      <replace>lenght</replace>
+      <replace>length</replace>
+      <replace>getLength</replace>
+      <replace>polynomial</replace>
+      <replace>Polynomial</replace>
+      <replace>r1</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/e1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Parent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Child.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Variant16.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ex1_2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ex1_3.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ex1_1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lab5/ex1_1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lab5/ex3_1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lab5/StudentV1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lab5/Student.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task5.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task5/Support/Forum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task5/Support/Page.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task5/task5.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task5/Page.java" />
+        <option value="$PROJECT_DIR$/src/test/java/task5/MainTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/task5/TestTask5.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task13/Square.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task13/Measure.java" />
+        <option value="$PROJECT_DIR$/src/test/java/task25/MainTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task13/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task25/Polynom.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task25/Dia.puml" />
+        <option value="$PROJECT_DIR$/src/main/java/task5/Dia.puml" />
+        <option value="$PROJECT_DIR$/src/test/java/task25/TestTask25.java" />
+        <option value="$PROJECT_DIR$/src/test/java/task31/MainTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task31/Drivable.java" />
+        <option value="$PROJECT_DIR$/src/test/java/task31/TestTask31.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task25/Polynomial.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task31/Car.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task31/Track.java" />
+        <option value="$PROJECT_DIR$/src/test/java/task13/TestTask13.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task31/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task5/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task5/Forum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task13/Measurable.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task25/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task5/Message.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task13/Quadrant.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task25/Countable.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task25/Rational.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="505" />
+    <option name="y" value="160" />
+    <option name="width" value="980" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="lab5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab5" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lab5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lab5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lab5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lab5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="task25" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lab5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lab5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultPlantUmlFileTemplate" value="UML Sequence" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1605024075016" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.splitter.proportion" value="0.17666948" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="task31" />
+      <recent name="task25" />
+      <recent name="task13" />
+      <recent name="task5" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Objects\JavaLab\lab5\src\main\java" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task31.Main" />
+      <module name="lab5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="task31.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task13.Main" />
+      <module name="lab5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="task13.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task25.Main" />
+      <module name="lab5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="task25.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task5.Main" />
+      <module name="lab5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="task5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestTask31" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lab5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="task31.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="task31" />
+      <option name="MAIN_CLASS_NAME" value="task31.TestTask31" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main (3)" />
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="JUnit.TestTask31" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="30bf9e30-cdcc-4db3-86fd-dcd58cb29dbb" name="Default Changelist" comment="" />
+      <created>1604155530543</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604155530543</updated>
+      <workItem from="1604155534155" duration="600000" />
+      <workItem from="1604312614052" duration="1740000" />
+      <workItem from="1604330414027" duration="151000" />
+      <workItem from="1604330573205" duration="39000" />
+      <workItem from="1604330667888" duration="20657000" />
+      <workItem from="1604412927891" duration="1342000" />
+      <workItem from="1604416938484" duration="198000" />
+      <workItem from="1604417186805" duration="71000" />
+      <workItem from="1604417317914" duration="93000" />
+      <workItem from="1604417474485" duration="13989000" />
+      <workItem from="1604469741432" duration="14821000" />
+      <workItem from="1604489026559" duration="791000" />
+      <workItem from="1604505609462" duration="1275000" />
+      <workItem from="1604506934992" duration="12341000" />
+      <workItem from="1604522954351" duration="57000" />
+      <workItem from="1604523057855" duration="561000" />
+      <workItem from="1604523685761" duration="1340000" />
+      <workItem from="1604525080757" duration="956000" />
+      <workItem from="1604526089591" duration="134000" />
+      <workItem from="1604526278142" duration="299000" />
+      <workItem from="1604556208259" duration="5764000" />
+      <workItem from="1604562100382" duration="62000" />
+      <workItem from="1604562210273" duration="345000" />
+      <workItem from="1604562613877" duration="314000" />
+      <workItem from="1604562983754" duration="60000" />
+      <workItem from="1604563096420" duration="161000" />
+      <workItem from="1604563311095" duration="171000" />
+      <workItem from="1604563537593" duration="7880000" />
+      <workItem from="1604574540569" duration="66000" />
+      <workItem from="1604576410056" duration="833000" />
+      <workItem from="1604587514442" duration="2429000" />
+      <workItem from="1604647312480" duration="159000" />
+      <workItem from="1605017579184" duration="6418000" />
+      <workItem from="1605025430430" duration="2433000" />
+      <workItem from="1605098842965" duration="580000" />
+      <workItem from="1605176817492" duration="53000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="TestTask25 - 2020.11.05 at 08h 13m 10s.xml">
+      <configuration name="TestTask25" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestTask25 - 2020.11.05 at 08h 13m 38s.xml">
+      <configuration name="TestTask25" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestTask25 - 2020.11.05 at 08h 59m 24s.xml">
+      <configuration name="TestTask25" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestTask31 - 2020.11.05 at 11h 02m 07s.xml">
+      <configuration name="TestTask31" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestTask31 - 2020.11.05 at 11h 03m 29s.xml">
+      <configuration name="TestTask31" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestTask31 - 2020.11.05 at 11h 04m 28s.xml">
+      <configuration name="TestTask31" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestTask31 - 2020.11.05 at 11h 37m 37s.xml">
+      <configuration name="TestTask31" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestTask5 - 2020.11.05 at 12h 23m 49s.xml">
+      <configuration name="TestTask5" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestTask25 - 2020.11.05 at 16h 53m 28s.xml">
+      <configuration name="TestTask25" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestTask31 - 2020.11.05 at 17h 08m 53s.xml">
+      <configuration name="TestTask31" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="99183000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49858356" visible="true" weight="0.24966443" />
+      <window_info id="Structure" order="1" sideWeight="0.50141644" side_tool="true" weight="0.2033557" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="simpleUML" order="7" weight="0.6261745" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3286119" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="PlantUML" order="9" weight="0.43691275" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49858356" visible="true" weight="0.23959732" />
+      <window_info id="Structure" order="1" sideWeight="0.50141644" side_tool="true" weight="0.2033557" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="simpleUML" order="7" weight="0.6261745" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3286119" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="PlantUML" order="9" weight="0.43691275" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/lab5/ex1_2.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/lab5/ex1_3.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/lab5/NumberOperations.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/lab5/ex2_2.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/lab5/ex2_1.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/lab5/ex3_1.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/lab5/ex1_1.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/lab5/StudentSetGet.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/lab5/ex2_3.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/lab5/StudentV1.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/lab5/Student.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/glass.png" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/task5/DiagramToTask5.uml" />
+    <entry file="file://$USER_HOME$/Desktop/lec6/StudentV1.java" />
+    <entry file="file://$USER_HOME$/Desktop/lec6/StudentSetGet.java" />
+    <entry file="file://$USER_HOME$/Desktop/lec6/Student.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/task25/Dia.puml" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/modules1.uml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Dia.uml" />
+    <entry file="file://$PROJECT_DIR$/src/main/Forum.uml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/task5/Dia.puml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/task5/Dia.suml" />
+    <entry file="file://$PROJECT_DIR$/src/site/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task5/Dia.uml">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="0.0" y="664.0">task5.Main</node>
+            <node x="106.6" y="211.0">task5.Message</node>
+            <node x="38.64999999999998" y="0.0">task5.Forum</node>
+            <node x="188.0" y="598.0">task5.TestTask5</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="task5.TestTask5" target="task5.Message">
+              <point x="-46.75" y="-91.5" />
+              <point x="234.75" y="573.0" />
+              <point x="227.225" y="573.0" />
+              <point x="24.125" y="168.5" />
+            </edge>
+            <edge source="task5.Main" target="task5.Forum">
+              <point x="-56.0" y="-25.5" />
+              <point x="28.0" y="573.0" />
+              <point x="48.849999999999994" y="573.0" />
+              <point x="48.849999999999994" y="186.0" />
+              <point x="84.89999999999998" y="186.0" />
+              <point x="-46.25" y="80.5" />
+            </edge>
+            <edge source="task5.Main" target="task5.Message">
+              <point x="0.0" y="-25.5" />
+              <point x="84.0" y="573.0" />
+              <point x="130.725" y="573.0" />
+              <point x="-72.375" y="168.5" />
+            </edge>
+            <edge source="task5.Message" target="task5.Forum">
+              <point x="-2.8421709430404007E-14" y="-168.5" />
+              <point x="203.09999999999997" y="186.0" />
+              <point x="177.39999999999998" y="186.0" />
+              <point x="46.25" y="80.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.8177278401997503" x="-227.0" y="283.0" />
+          <SelectedNodes>
+            <node>task5.Message</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/task5/TestTask5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="26" column="44" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task13/Dia.uml">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="188.00000000000003" y="577.0">task13.TestTask13</node>
+            <node x="33.85000000000001" y="0.0">task13.Measurable</node>
+            <node x="0.0" y="665.5">task13.Main</node>
+            <node x="88.45000000000002" y="167.0">task13.Quadrant</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="task13.Quadrant" target="task13.Measurable">
+              <point x="0.0" y="-180.0" />
+              <point x="214.95000000000002" y="142.0" />
+              <point x="179.35000000000002" y="142.0" />
+              <point x="48.5" y="58.5" />
+            </edge>
+            <edge source="task13.Main" target="task13.Quadrant">
+              <point x="0.0" y="-25.5" />
+              <point x="84.0" y="552.0" />
+              <point x="120.07500000000002" y="552.0" />
+              <point x="-94.875" y="180.0" />
+            </edge>
+            <edge source="task13.TestTask13" target="task13.Quadrant">
+              <point x="-61.25" y="-114.0" />
+              <point x="249.25000000000003" y="552.0" />
+              <point x="246.57500000000002" y="552.0" />
+              <point x="31.625" y="180.0" />
+            </edge>
+            <edge source="task13.Main" target="task13.Measurable">
+              <point x="-56.0" y="-25.5" />
+              <point x="28.0" y="552.0" />
+              <point x="45.30000000000001" y="552.0" />
+              <point x="45.30000000000001" y="142.0" />
+              <point x="82.35000000000001" y="142.0" />
+              <point x="-48.5" y="58.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.793939393939394" x="-204.0" y="292.0" />
+          <SelectedNodes>
+            <node>task13.Quadrant</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/task25/TestTask25.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/task31/TestTask31.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="52" column="1" lean-forward="true" selection-start-line="52" selection-start-column="1" selection-end-line="52" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/task13/TestTask13.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task31/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="81" column="7" lean-forward="true" selection-start-line="81" selection-start-column="7" selection-end-line="81" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task31/Track.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-129">
+          <caret line="50" column="5" lean-forward="true" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task31/Drivable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task31/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task13/Measurable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task5/Forum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="30" lean-forward="true" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task13/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task25/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task5/Message.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="213" column="45" selection-start-line="213" selection-start-column="45" selection-end-line="213" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task13/Quadrant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="e#2881#2882#0" expanded="true" />
+            <element signature="e#2945#2946#0" expanded="true" />
+            <element signature="e#2988#2989#0" expanded="true" />
+            <element signature="e#3046#3047#0" expanded="true" />
+            <marker date="1605022631474" expanded="true" signature="2838:3047" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task5/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task31/Dia.uml">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="161.33333333333331" y="278.0">task31.Track</node>
+            <node x="0.0" y="11.5">task31.Drivable</node>
+            <node x="198.02777777777771" y="512.0">task31.TestTask31</node>
+            <node x="204.27777777777777" y="0.0">task31.Car</node>
+            <node x="3.0" y="600.5">task31.Main</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="task31.Track" target="task31.Car">
+              <point x="2.8421709430404007E-14" y="-92.0" />
+              <point x="257.83333333333337" y="253.0" />
+              <point x="249.27777777777777" y="253.0" />
+              <point x="-45.0" y="114.0" />
+            </edge>
+            <edge source="task31.TestTask31" target="task31.Track">
+              <point x="51.25" y="-114.0" />
+              <point x="351.7777777777777" y="487.0" />
+              <point x="322.16666666666663" y="487.0" />
+              <point x="64.33333333333331" y="92.0" />
+            </edge>
+            <edge source="task31.Main" target="task31.Track">
+              <point x="42.0" y="-25.5" />
+              <point x="129.0" y="487.0" />
+              <point x="193.5" y="487.0" />
+              <point x="-64.33333333333333" y="92.0" />
+            </edge>
+            <edge source="task31.Main" target="task31.Drivable">
+              <point x="-42.0" y="-25.5" />
+              <point x="-45.0" y="102.5" />
+            </edge>
+            <edge source="task31.Track" target="task31.Drivable">
+              <point x="-64.33333333333331" y="-92.0" />
+              <point x="193.5" y="253.0" />
+              <point x="135.0" y="253.0" />
+              <point x="45.0" y="102.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.8618421052631579" x="-174.0" y="268.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task25/Dia.uml">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="334.4583333333333" y="55.5">task25.Countable</node>
+            <node x="0.0" y="490.0">task25.TestTask25</node>
+            <node x="98.24999999999997" y="190.0">task25.Rational</node>
+            <node x="91.49999999999997" y="0.0">task25.Polynomial</node>
+            <node x="274.0" y="578.5">task25.Main</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="task25.Main" target="task25.Rational">
+              <point x="0.0" y="-25.5" />
+              <point x="358.0" y="465.0" />
+              <point x="313.5" y="465.0" />
+              <point x="92.25" y="125.0" />
+            </edge>
+            <edge source="task25.Main" target="task25.Countable">
+              <point x="56.0" y="-25.5" />
+              <point x="414.0" y="465.0" />
+              <point x="410.9583333333333" y="465.0" />
+              <point x="25.5" y="14.5" />
+            </edge>
+            <edge source="task25.Rational" target="task25.Countable">
+              <point x="92.25" y="-125.0" />
+              <point x="313.5" y="165.0" />
+              <point x="359.9583333333333" y="165.0" />
+              <point x="-25.5" y="14.5" />
+            </edge>
+            <edge source="task25.TestTask25" target="task25.Rational">
+              <point x="-63.5" y="-114.0" />
+              <point x="63.5" y="465.0" />
+              <point x="128.99999999999997" y="465.0" />
+              <point x="-92.25" y="125.0" />
+            </edge>
+            <edge source="task25.Rational" target="task25.Polynomial">
+              <point x="-30.75" y="-125.0" />
+              <point x="0.0" y="70.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.8618421052631579" x="276.0" y="360.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task25/Polynomial.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task25/Rational.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task25/Countable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>14</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>lab5</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: org.jetbrains:annotations:20.1.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+  <component name="simpleUML.UMLToolWindowPlugin">
+    <General>
+      <option name="birdViewUpdateDelay" value="2000" />
+      <option name="knownFile1" value="file://$PROJECT_DIR$/Dia.suml" />
+      <option name="knownFile0" value="file://$PROJECT_DIR$/../Dia.suml" />
+      <option name="defaultFileLocation" value="file://$PROJECT_DIR$/.." />
+    </General>
+    <Classdiagram>
+      <option name="diagramTitleFont" value="SansSerif,1,12" />
+      <option name="diagramFont" value="SansSerif,0,10" />
+      <option name="defaultFieldsExpanded" value="false" />
+      <option name="defaultContructorsExpanded" value="false" />
+      <option name="defaultMethodsExpanded" value="false" />
+      <option name="showParameters" value="true" />
+      <option name="showTooltip" value="true" />
+      <option name="showReturnValues" value="true" />
+      <option name="longModifier" value="true" />
+      <option name="implementsBehaviour" value="1" />
+      <option name="extendsBehaviour" value="1" />
+      <option name="compartmentBehaviour" value="1" />
+      <option name="interfaceBackgroundColor" value="-6494306" />
+      <option name="abstractClassBackgroundColor" value="-1580132" />
+      <option name="classBackgroundColor" value="-6508057" />
+      <option name="diagramBackgroundColor" value="-1" />
+      <option name="useAntialiasedConnectors" value="true" />
+      <option name="quickSourceLinkColor" value="-16776961" />
+      <option name="quickDiagramLinkColor" value="-8454144" />
+      <option name="drawDecorations" value="false" />
+      <option name="hideFieldList" value="" />
+      <option name="showFieldList" value="" />
+      <option name="hideConstructorList" value="" />
+      <option name="showConstructorList" value="" />
+      <option name="hideMethodList" value="" />
+      <option name="showMethodList" value="" />
+      <option name="minimumFigureSize" value="0,0" />
+    </Classdiagram>
+    <Dependencydiagram>
+      <option name="diagramTitleFont" value="SansSerif,1,12" />
+      <option name="diagramFont" value="SansSerif,0,10" />
+      <option name="diagramBackgroundColor" value="-1" />
+      <option name="useAntialiasedConnectors" value="true" />
+      <option name="packageNameCompressionLevel" value="0" />
+    </Dependencydiagram>
+    <Packagediagram>
+      <option name="diagramTitleFont" value="SansSerif,0,12" />
+      <option name="diagramFont" value="SansSerif,0,10" />
+      <option name="packageBackgroundColor" value="-4144960" />
+      <option name="diagramBackgroundColor" value="-1" />
+      <option name="useAntialiasedConnectors" value="true" />
+      <option name="packageNameCompressionLevel" value="2" />
+    </Packagediagram>
+  </component>
+</project>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="577.0">task13.TestTask13</node>
+    <node x="205.15000000000003" y="0.0">task13.Measurable</node>
+    <node x="265.0" y="665.5">task13.Main</node>
+    <node x="-18.03015267175573" y="154.40458015267177">task13.Quadrant</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="task13.Quadrant" target="task13.Measurable">
+      <point x="2.8421709430404007E-14" y="-180.0" />
+      <point x="218.05000000000004" y="142.0" />
+      <point x="253.65000000000003" y="142.0" />
+      <point x="-48.5" y="58.5" />
+    </edge>
+    <edge source="task13.Main" target="task13.Quadrant">
+      <point x="-56.0" y="-25.5" />
+      <point x="293.0" y="552.0" />
+      <point x="249.675" y="552.0" />
+      <point x="31.625" y="180.0" />
+    </edge>
+    <edge source="task13.TestTask13" target="task13.Quadrant">
+      <point x="-61.25" y="-114.0" />
+      <point x="61.25" y="552.0" />
+      <point x="123.17500000000001" y="552.0" />
+      <point x="-94.875" y="180.0" />
+    </edge>
+    <edge source="task13.Main" target="task13.Measurable">
+      <point x="56.0" y="-25.5" />
+      <point x="405.0" y="552.0" />
+      <point x="387.70000000000005" y="552.0" />
+      <point x="387.70000000000005" y="142.0" />
+      <point x="350.65000000000003" y="142.0" />
+      <point x="48.5" y="58.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.793939393939394" x="216.5" y="402.5" />
+  <SelectedNodes>
+    <node>task13.Quadrant</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

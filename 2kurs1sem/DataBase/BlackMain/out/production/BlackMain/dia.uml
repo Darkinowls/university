@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="514.5" y="168.0">Project.Controllers.TableControllers.Tables.Worker</node>
+    <node x="610.5" y="297.0">Project.Controllers.TableControllers.ControllerCert</node>
+    <node x="272.5" y="168.0">Project.Controllers.TableControllers.Tables.Task</node>
+    <node x="295.75" y="79.0">Project.DataBase.DHandler</node>
+    <node x="16.5" y="168.0">Project.Controllers.TableControllers.Tables.City</node>
+    <node x="363.5" y="168.0">Project.Controllers.ControllerMenu</node>
+    <node x="446.5" y="297.0">Project.Controllers.TableControllers.ControllerWorkers</node>
+    <node x="269.9401041666667" y="297.0">Project.Controllers.TableControllers.ControllerTask</node>
+    <node x="105.5" y="168.0">Project.Controllers.ControllerEntrance</node>
+    <node x="289.75" y="0.0">Project.DataBase.DConnector</node>
+    <node x="655.1875" y="168.0">Project.Controllers.TableControllers.Tables.Cert</node>
+    <node x="9.5" y="297.0">Project.Controllers.TableControllers.ControllerDic</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Project.Controllers.TableControllers.ControllerTask" target="Project.Controllers.TableControllers.Tables.Task">
+      <point x="10.333333333333371" y="-14.5" />
+      <point x="342.27343750000006" y="227.0" />
+      <point x="316.875" y="227.0" />
+      <point x="8.875" y="14.5" />
+    </edge>
+    <edge source="Project.Controllers.TableControllers.ControllerWorkers" target="Project.Controllers.ControllerMenu">
+      <point x="-60.0" y="-14.5" />
+      <point x="458.5" y="277.0" />
+      <point x="444.75" y="277.0" />
+      <point x="16.25" y="14.5" />
+    </edge>
+    <edge source="Project.DataBase.DHandler" target="Project.DataBase.DConnector">
+      <point x="-24.75" y="-14.5" />
+      <point x="320.5" y="54.0" />
+      <point x="317.5" y="54.0" />
+      <point x="-27.75" y="14.5" />
+    </edge>
+    <edge source="Project.Controllers.TableControllers.ControllerCert" target="Project.DataBase.DHandler">
+      <point x="-30.5" y="-14.5" />
+      <point x="641.0" y="277.0" />
+      <point x="639.5026041666667" y="277.0" />
+      <point x="639.5026041666667" y="128.0" />
+      <point x="386.5" y="128.0" />
+      <point x="41.25" y="14.5" />
+    </edge>
+    <edge source="Project.Controllers.TableControllers.ControllerTask" target="Project.Controllers.ControllerMenu">
+      <point x="51.66666666666663" y="-14.5" />
+      <point x="383.6067708333333" y="277.0" />
+      <point x="412.25" y="277.0" />
+      <point x="-16.25" y="14.5" />
+    </edge>
+    <edge source="Project.Controllers.TableControllers.ControllerDic" target="Project.Controllers.ControllerMenu">
+      <point x="49.166666666666686" y="-14.5" />
+      <point x="117.66666666666669" y="267.0" />
+      <point x="379.75" y="267.0" />
+      <point x="-48.75" y="14.5" />
+    </edge>
+    <edge source="Project.Controllers.TableControllers.ControllerWorkers" target="Project.DataBase.DHandler">
+      <point x="-36.0" y="-14.5" />
+      <point x="482.5" y="267.0" />
+      <point x="504.0" y="267.0" />
+      <point x="504.0" y="138.0" />
+      <point x="370.0" y="138.0" />
+      <point x="24.75" y="14.5" />
+    </edge>
+    <edge source="Project.Controllers.TableControllers.ControllerWorkers" target="Project.Controllers.TableControllers.Tables.Worker">
+      <point x="60.0" y="-14.5" />
+      <point x="578.5" y="277.0" />
+      <point x="589.75" y="277.0" />
+      <point x="32.25" y="14.5" />
+    </edge>
+    <edge source="Project.Controllers.ControllerMenu" target="Project.DataBase.DHandler">
+      <point x="0.0" y="-14.5" />
+      <point x="428.5" y="148.0" />
+      <point x="353.5" y="148.0" />
+      <point x="8.25" y="14.5" />
+    </edge>
+    <edge source="Project.Controllers.TableControllers.ControllerDic" target="Project.Controllers.TableControllers.Tables.City">
+      <point x="9.833333333333314" y="-14.5" />
+      <point x="78.33333333333331" y="277.0" />
+      <point x="76.0" y="277.0" />
+      <point x="25.5" y="14.5" />
+    </edge>
+    <edge source="Project.Controllers.TableControllers.ControllerDic" target="Project.DataBase.DHandler">
+      <point x="29.5" y="-14.5" />
+      <point x="98.0" y="277.0" />
+      <point x="95.0" y="277.0" />
+      <point x="95.0" y="128.0" />
+      <point x="304.0" y="128.0" />
+      <point x="-41.25" y="14.5" />
+    </edge>
+    <edge source="Project.Controllers.TableControllers.ControllerTask" target="Project.DataBase.DHandler">
+      <point x="-51.66666666666663" y="-14.5" />
+      <point x="280.27343750000006" y="257.0" />
+      <point x="262.0" y="257.0" />
+      <point x="262.0" y="148.0" />
+      <point x="337.0" y="148.0" />
+      <point x="-8.25" y="14.5" />
+    </edge>
+    <edge source="Project.Controllers.ControllerEntrance" target="Project.DataBase.DHandler">
+      <point x="0.0" y="-14.5" />
+      <point x="178.5" y="138.0" />
+      <point x="320.5" y="138.0" />
+      <point x="-24.75" y="14.5" />
+    </edge>
+    <edge source="Project.Controllers.TableControllers.ControllerCert" target="Project.Controllers.ControllerMenu">
+      <point x="-50.83333333333333" y="-14.5" />
+      <point x="620.6666666666667" y="257.0" />
+      <point x="477.25" y="257.0" />
+      <point x="48.75" y="14.5" />
+    </edge>
+    <edge source="Project.Controllers.TableControllers.ControllerCert" target="Project.Controllers.TableControllers.Tables.Cert">
+      <point x="-10.166666666666671" y="-14.5" />
+      <point x="661.3333333333333" y="277.0" />
+      <point x="663.8125" y="277.0" />
+      <point x="-25.875" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="312.5" y="166.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
