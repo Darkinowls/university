@@ -26,10 +26,9 @@ EXCEL_DAY = 'Число месяца'
 
 
 def locate_datetime_gaps(dataframe: DataFrame) -> DataFrame:
-
     for i in range(len(dataframe[DATETIME]) - 1):
         if dataframe[DATETIME][i + 2] - dataframe[DATETIME][i + 1] != timedelta(days=0, minutes=30):
-            print(dataframe[DATETIME][i + 2], dataframe[DATETIME][i + 1])
+            print("Located gaps :", dataframe[DATETIME][i + 2], dataframe[DATETIME][i + 1])
             dataframe, num_rows = insert_into_dataframe_datetime_rows(dataframe, i, TIME_GAP)
             i += num_rows
 
@@ -42,7 +41,7 @@ def insert_into_dataframe_datetime_rows(dataframe: DataFrame, row: int, time_gap
     columns = dataframe.columns
     for i in range(len(date_times)):
         dataframe = pd.DataFrame(
-            np.insert(dataframe.values, row + 1 + i, values=[date_times[i], np.nan, np.nan, np.nan], axis=0))
+            np.insert(dataframe.values, row + 1 + i, values=[date_times[i], None, None, None], axis=0))
     dataframe.columns = columns
     dataframe.index += 1
     return dataframe, len(date_times)
@@ -82,11 +81,13 @@ def merge_sort_dataframe_list(dataframes: list[DataFrame], sort_by: str):
     return dataframe
 
 
-def fill_gaps_by_interpolation(dataframe: DataFrame, f_method: str, columns: list[str], pad_columns: list[str]):
+def fill_gaps_by_interpolation(dataframe: DataFrame, f_method: str, columns: list[str]) -> DataFrame:
     for column in columns:
         dataframe[column] = dataframe[column].astype(float).interpolate(method=f_method, order=3).round(0).astype(int)
-    for pad_column in pad_columns:
-        dataframe[pad_column] = dataframe[pad_column].astype(float).interpolate(method=PAD).round(0).astype(int)
     return dataframe
 
 
+def fill_gaps_by_pad(dataframe: DataFrame, pad_columns: list[str]) -> DataFrame:
+    for pad_column in pad_columns:
+        dataframe[pad_column] = dataframe[pad_column].astype(float).interpolate(method=PAD).round(0).astype(int)
+    return dataframe

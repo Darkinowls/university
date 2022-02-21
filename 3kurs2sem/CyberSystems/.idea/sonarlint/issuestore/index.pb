@@ -9,5 +9,7 @@ C
 file_manager.py,b/f/bffdee1ed01400c04d28b8c006fbe18a6c4ca143
 D
 dataframe_manager.py,9/6/96fa118fb5e721305b2e41157e54bd926989c9f2
+A
+dialog_manager.py,1/c/1c611e858f4535171c57ab6d7661a80c2e50943d
 7
 main.py,f/1/f1bdda93d9a278e358509d498e17d97764c1fb29
