@@ -1,16 +1,27 @@
-# This is a sample Python script.
+import sys
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+from PyQt5 import QtWidgets
 
+# def main():
+#     paths = get_files_paths(DIR_NAME)
+#     excel_dataframes = read_excel_files(paths)
+#     weather_api = get_weather_api(excel_dataframes, paths)
+#     weather_marked = locate_datetime_gaps(weather_api)
+#     if weather_api is not weather_marked:
+#         weather_api = ask_fill_method(weather_marked, [TEMPERATURE, WIND_SPEED], [WIND_DIRECTION_ID])
+#     elif weather_api[WIND_DIRECTION_ID].isnull().values.any() and ask_do_use_pad():
+#         weather_api = fill_gaps_by_pad(weather_api, [WIND_DIRECTION_ID])
+#     renew_database_table(weather_api, WEATHER_TABLE)
+#
+#
+# main()
+from windows.MainWindow import MainWindow
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+8 to toggle the breakpoint.
+if __name__ == "__main__":
+    app = QtWidgets.QApplication(sys.argv)
+    main_window = QtWidgets.QMainWindow()
+    ui = MainWindow()
+    ui.setupUi(main_window)
+    main_window.show()
+    sys.exit(app.exec_())
 
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/

@@ -1,0 +1,25 @@
+
+C
+gui/UiMainWindow.py,f/d/fd2ab78aeed8ceb72000bcc15f9f4de70a3f6de0
+4
+.env,3/c/3c84dcdc6bbe3d7817c49dcdc327b926fea1808a
+E
+windows/MainWindow.py,a/e/ae9e03d37a4352a8bbc415dec3e573f23889fcb3
+>
+PandasModel.py,c/4/c4c4999e579e02c91216ce4dd4c9a5d9cbb51112
+H
+wind_direction_parser.py,7/6/760308c1518c20687e68a5ff4f7e8a97390c4256
+?
+file_manager.py,b/f/bffdee1ed01400c04d28b8c006fbe18a6c4ca143
+7
+main.py,f/1/f1bdda93d9a278e358509d498e17d97764c1fb29
+D
+message_formatter.py,e/9/e9b1303a1f82ce7129359c7b311e51e92ea54b53
+C
+database_manager.py,9/4/94c40efda1077f39b9b8334ffa609424fd6abe8c
+E
+windows/QMessanger.py,6/e/6eeba7387ce2602cbca91dd9ba5b579032501de9
+9
+	consts.py,1/5/15cdac4226e4864e3b6f94cb7881b93129041c7a
+D
+dataframe_manager.py,9/6/96fa118fb5e721305b2e41157e54bd926989c9f2

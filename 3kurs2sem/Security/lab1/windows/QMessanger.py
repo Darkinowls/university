@@ -1,10 +1,6 @@
 from PyQt5.QtWidgets import QMessageBox
 
-METHODS = {
-    1: 'spline',
-    2: 'linear',
-    3: 'polynomial'
-}
+from consts import METHODS
 
 
 class QMessanger:
@@ -39,8 +35,8 @@ class QMessanger:
         self.__message_box.setIcon(QMessageBox.Question)
         self.__message_box.setText("Choose method for data interpolation")
         self.__message_box.setWindowTitle('Method of interpolation')
-        custom_buttons = [self.__message_box.addButton(METHODS.get(num), num) for num in METHODS]
         self.__message_box.setStandardButtons(QMessageBox.Ignore)
+        custom_buttons = [self.__message_box.addButton(METHODS.get(num), num) for num in METHODS]
         result = self.__message_box.exec()
         [self.__message_box.removeButton(button) for button in custom_buttons]
         return result

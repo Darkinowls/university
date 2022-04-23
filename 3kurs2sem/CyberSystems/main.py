@@ -8,6 +8,7 @@ from file_manager import get_files_paths, read_excel_files
 # DIR_NAME = "і франківськ"
 DIR_NAME = "киев+"
 
+
 def main():
     paths = get_files_paths(DIR_NAME)
     excel_dataframes = read_excel_files(paths)
