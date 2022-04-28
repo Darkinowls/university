@@ -6,10 +6,10 @@ import numpy as np
 import pandas as pd
 from pandas import DataFrame
 
-from consts import DATETIME, EXCEL_DAY, UTC, EXCEL_WIND_DIRECTION, TIME_GAP, T, EXCEL_FF, TEMPERATURE, \
+from app.consts import DATETIME, EXCEL_DAY, UTC, EXCEL_WIND_DIRECTION, TIME_GAP, T, EXCEL_FF, TEMPERATURE, \
     WIND_DIRECTION_ID, WIND_SPEED, PAD, DATE, TIME
-from file_manager import get_date_from_path
-from wind_direction_parser import parse_wind_direction
+from app.formatters.wind_direction_formatter import parse_wind_direction
+from app.managers.file_manager import get_date_from_path
 
 
 def locate_datetime_gaps(dataframe: DataFrame) -> tuple[DataFrame, list[tuple[datetime, datetime]]]:

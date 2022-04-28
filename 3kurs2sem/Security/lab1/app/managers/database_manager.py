@@ -2,7 +2,7 @@ import pandas as pd
 from pandas import DataFrame
 from sqlalchemy import create_engine
 
-from consts import ID, HOST, DATABASE, USER, PASSWORD
+from app.consts import ID, HOST, DATABASE, USER, PASSWORD
 
 ENGINE = create_engine("mysql+pymysql://{user}:{pw}@{host}/{db}"
                        .format(host=HOST, db=DATABASE, user=USER, pw=PASSWORD))

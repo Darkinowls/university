@@ -2,8 +2,8 @@ from PyQt5 import QtCore
 from PyQt5.QtCore import Qt
 from pandas import DataFrame
 
-from consts import UA
-from wind_direction_parser import translate_wind_direction
+from app.consts import UA
+from app.formatters.wind_direction_formatter import translate_wind_direction
 
 
 class PandasModel(QtCore.QAbstractTableModel):

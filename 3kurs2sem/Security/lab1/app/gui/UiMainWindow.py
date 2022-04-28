@@ -10,7 +10,7 @@
 from PyQt5 import QtCore, QtWidgets
 from PyQt5.QtWidgets import QWidget
 
-from consts import RED_ROSE
+from app.consts import RED_ROSE
 
 
 class UiMainWindow(QWidget):

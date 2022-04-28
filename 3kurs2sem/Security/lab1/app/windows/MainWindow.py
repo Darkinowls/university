@@ -4,18 +4,18 @@ from PyQt5.QtCore import QTimer
 from PyQt5.QtWidgets import QFileDialog, QMessageBox
 from pandas import DataFrame
 
-from PandasModel import PandasModel
-from cipher import is_key
-from consts import NO_DATA_IN_THE_TABLE, ERROR, NO_DATE_GAPS_FOUND, LOCATED_IN_THE_TABLE, INFORMATION, SUCCESS, \
+from app.gui.PandasModel import PandasModel
+from app.cipher import is_key
+from app.consts import NO_DATA_IN_THE_TABLE, ERROR, NO_DATE_GAPS_FOUND, LOCATED_IN_THE_TABLE, INFORMATION, SUCCESS, \
     WIND_DIRECTION_ID, WARNING, METHODS, WIND_SPEED, TEMPERATURE, APPEND, REPLACE, UA, ACTIVATED, WEATHER_TABLE
-from database_manager import database_table_empty, save_database_table
-from dataframe_manager import get_weather_api, check_for_filling_needed, locate_datetime_gaps, \
+from app.managers.database_manager import database_table_empty, save_database_table
+from app.managers.dataframe_manager import get_weather_api, check_for_filling_needed, locate_datetime_gaps, \
     fill_gaps_by_interpolation, fill_gaps_by_pad, split_datetime
-from file_manager import read_excel_files
-from gui.UiMainWindow import UiMainWindow
-from message_formatter import data_gaps_located_message, rows_were_affected_message
-from wind_direction_parser import translate_wind_direction
-from windows.QMessanger import QMessanger
+from app.managers.file_manager import read_excel_files
+from app.gui.UiMainWindow import UiMainWindow
+from app.formatters.message_formatter import data_gaps_located_message, rows_were_affected_message
+from app.formatters.wind_direction_formatter import translate_wind_direction
+from app.windows.QMessanger import QMessanger
 
 
 class MainWindow(UiMainWindow):
@@ -48,8 +48,8 @@ class MainWindow(UiMainWindow):
 
     def __import_excel_files(self):
         options = QFileDialog.Options()
-        self.__filenames, _ = QFileDialog.getOpenFileNames(self, "Open excel files", "",
-                                                           "Excel Files (*.xlsx)", options=options)
+        self.__filenames, _ = QFileDialog.getOpenFileNames(None, "Open excel files", "",
+                                                           "Excel Files (*.xlsx)", options=options, )
         if not self.__filenames:
             return
         self.__weather_api = get_weather_api(read_excel_files(self.__filenames), self.__filenames)

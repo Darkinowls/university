@@ -1,8 +1,8 @@
 import pandas as pd
 from pandas import DataFrame
 
-from consts import WIND_TABLE, INT, WIND_DIRECTION_ID, ID, NAME
-from database_manager import get_dataframe_from_table
+from app.consts import WIND_TABLE, INT, WIND_DIRECTION_ID, ID, NAME
+from app.managers.database_manager import get_dataframe_from_table
 
 wind_dataframe = get_dataframe_from_table(WIND_TABLE)
 wind_directions_dictionary = tuple(zip(wind_dataframe[ID], wind_dataframe[NAME], wind_dataframe["name_rus"]))

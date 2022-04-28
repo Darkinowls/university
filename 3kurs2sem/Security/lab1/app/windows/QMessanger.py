@@ -1,6 +1,6 @@
 from PyQt5.QtWidgets import QMessageBox, QInputDialog, QWidget
 
-from consts import METHODS
+from app.consts import METHODS
 
 
 class QMessanger(QWidget):
@@ -9,6 +9,7 @@ class QMessanger(QWidget):
 
     def question_message_erase_data(self) -> int:
         self.__message_box = QMessageBox()
+
         self.__message_box.setIcon(QMessageBox.Question)
         self.__message_box.setText("Erase old data in the database?")
         self.__message_box.setWindowTitle('How to save?')
@@ -44,4 +45,4 @@ class QMessanger(QWidget):
 
     def question_message_activate(self) -> tuple[str, bool]:
         self.__input_dialog = QInputDialog()
-        return self.__input_dialog.getText(self, 'Activate program', 'Enter your key to activate the program:\t')
+        return self.__input_dialog.getText(None, 'Activate program', 'Enter your key to activate the program:\t')

@@ -1,6 +1,6 @@
 from datetime import datetime
 
-from consts import DATETIME_FORMAT
+from app.consts import DATETIME_FORMAT
 
 
 def data_gaps_located_message(gap_info: list[tuple[datetime, datetime]]) -> str:
