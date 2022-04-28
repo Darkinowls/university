@@ -10,7 +10,6 @@ def get_files_paths(source_dir_name: str) -> list[str]:
     paths = []
     for file in files:
         paths.append(source_dir_name + "/" + file)
-    #  спростити!!!!!!!!
     return paths
 
 

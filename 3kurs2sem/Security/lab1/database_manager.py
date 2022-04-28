@@ -1,20 +1,8 @@
-import os
-
 import pandas as pd
-from dotenv import load_dotenv
 from pandas import DataFrame
 from sqlalchemy import create_engine
 
-from consts import ID
-
-load_dotenv()
-HOST = os.getenv('HOST')
-PORT = int(os.getenv('PORT'))
-USER = os.getenv('TEMP_USER')
-PASSWORD = os.getenv('PASSWORD')
-DATABASE = os.getenv('DATABASE')
-WEATHER_TABLE = os.getenv('WEATHER_TABLE')
-CHARSET = os.getenv('CHARSET')
+from consts import ID, HOST, DATABASE, USER, PASSWORD
 
 ENGINE = create_engine("mysql+pymysql://{user}:{pw}@{host}/{db}"
                        .format(host=HOST, db=DATABASE, user=USER, pw=PASSWORD))

@@ -24,17 +24,10 @@
      </rect>
     </property>
     <layout class="QGridLayout" name="gridLayout_2">
-     <item row="1" column="0">
-      <widget class="QPushButton" name="button_locate_gaps">
+     <item row="4" column="0">
+      <widget class="QPushButton" name="button_export_files">
        <property name="text">
-        <string>Locate gaps</string>
-       </property>
-      </widget>
-     </item>
-     <item row="3" column="0">
-      <widget class="QPushButton" name="button_safe_db">
-       <property name="text">
-        <string>Safe to database</string>
+        <string>Export excel file</string>
        </property>
       </widget>
      </item>
@@ -52,10 +45,24 @@
        </property>
       </widget>
      </item>
-     <item row="4" column="0">
-      <widget class="QPushButton" name="button_export_files">
+     <item row="1" column="0">
+      <widget class="QPushButton" name="button_locate_gaps">
        <property name="text">
-        <string>Export excel file</string>
+        <string>Locate gaps</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="QPushButton" name="button_safe_db">
+       <property name="text">
+        <string>Safe to database</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="0">
+      <widget class="QPushButton" name="button_activate">
+       <property name="text">
+        <string>Activate program</string>
        </property>
       </widget>
      </item>

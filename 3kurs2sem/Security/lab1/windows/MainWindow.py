@@ -1,12 +1,14 @@
 from datetime import datetime
 
+from PyQt5.QtCore import QTimer
 from PyQt5.QtWidgets import QFileDialog, QMessageBox
 from pandas import DataFrame
 
 from PandasModel import PandasModel
+from cipher import is_key
 from consts import NO_DATA_IN_THE_TABLE, ERROR, NO_DATE_GAPS_FOUND, LOCATED_IN_THE_TABLE, INFORMATION, SUCCESS, \
-    WIND_DIRECTION_ID, WARNING, METHODS, WIND_SPEED, TEMPERATURE, APPEND, REPLACE, UA
-from database_manager import WEATHER_TABLE, database_table_empty, save_database_table
+    WIND_DIRECTION_ID, WARNING, METHODS, WIND_SPEED, TEMPERATURE, APPEND, REPLACE, UA, ACTIVATED, WEATHER_TABLE
+from database_manager import database_table_empty, save_database_table
 from dataframe_manager import get_weather_api, check_for_filling_needed, locate_datetime_gaps, \
     fill_gaps_by_interpolation, fill_gaps_by_pad, split_datetime
 from file_manager import read_excel_files
@@ -33,6 +35,16 @@ class MainWindow(UiMainWindow):
         self.button_safe_db.clicked.connect(self.__safe_to_database)
         self.button_fill_gaps.clicked.connect(self.__fill_gaps)
         self.button_export_files.clicked.connect(self.__export_files)
+        self.button_activate.clicked.connect(self.__activate_button)
+        self.__nag_by_message()
+
+    def __nag_by_message(self) -> None:
+        if not ACTIVATED:
+            t = QTimer()
+            t.singleShot(1000 * 60 * 1, self.__nag_by_message)
+            self.__messanger.show_message('Please, activate program. Click "Activate program" button.',
+                                          'Reminder about activation',
+                                          QMessageBox.Warning)
 
     def __import_excel_files(self):
         options = QFileDialog.Options()
@@ -108,8 +120,18 @@ class MainWindow(UiMainWindow):
         message = rows_were_affected_message(affected)
         return self.__messanger.show_message(message, SUCCESS, QMessageBox.Information)
 
-    def __export_files(self):
+    def __export_files(self) -> int:
         if self.tableView.model() is None:
             return self.__messanger.show_message(NO_DATA_IN_THE_TABLE, ERROR, QMessageBox.Critical)
         translate_wind_direction(split_datetime(self.__weather_api.__copy__()), lang=UA).to_excel("output.xlsx")
         return self.__messanger.show_message('Data have been exported', SUCCESS, QMessageBox.Information)
+
+    def __activate_button(self) -> int:
+        code, typed = self.__messanger.question_message_activate()
+        if typed is True and is_key(code):
+            with open(".env", "a") as f:
+                f.write('ACTIVATED=True')
+            return self.__messanger.show_message('Program has been activated!', SUCCESS, QMessageBox.Information)
+        elif typed is True:
+            return self.__messanger.show_message('Wrong activation code!', ERROR, QMessageBox.Warning)
+        return 0

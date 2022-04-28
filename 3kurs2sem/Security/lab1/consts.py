@@ -1,4 +1,8 @@
+import os
+from dotenv import load_dotenv
+
 ID = 'id'
+NAME='name'
 APPEND = 'append'
 REPLACE = 'replace'
 PAD = 'pad'
@@ -32,3 +36,17 @@ METHODS = {
           },
 DATE = 'date'
 TIME = 'time'
+RED_ROSE = "Red Rose"
+
+load_dotenv()
+HOST = os.getenv('HOST')
+PORT = int(os.getenv('PORT'))
+USER = os.getenv('TEMP_USER')
+PASSWORD = os.getenv('PASSWORD')
+DATABASE = os.getenv('DATABASE')
+WEATHER_TABLE = os.getenv('WEATHER_TABLE')
+CHARSET = os.getenv('CHARSET')
+CODE = os.getenv('CODE')
+KEY = int(os.getenv('KEY'))
+ACTIVATED = bool(os.getenv('ACTIVATED'))
+

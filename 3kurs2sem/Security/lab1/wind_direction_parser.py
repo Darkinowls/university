@@ -1,11 +1,11 @@
 import pandas as pd
 from pandas import DataFrame
 
-from consts import WIND_TABLE, INT, WIND_DIRECTION_ID
+from consts import WIND_TABLE, INT, WIND_DIRECTION_ID, ID, NAME
 from database_manager import get_dataframe_from_table
 
 wind_dataframe = get_dataframe_from_table(WIND_TABLE)
-wind_directions_dictionary = tuple(zip(wind_dataframe["id"], wind_dataframe["name"], wind_dataframe["name_rus"]))
+wind_directions_dictionary = tuple(zip(wind_dataframe[ID], wind_dataframe[NAME], wind_dataframe["name_rus"]))
 
 
 def parse_wind_direction(wind_direction: int | str, to: int = INT) -> str | int | None:
