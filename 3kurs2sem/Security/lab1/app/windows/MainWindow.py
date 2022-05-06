@@ -4,17 +4,18 @@ from PyQt5.QtCore import QTimer
 from PyQt5.QtWidgets import QFileDialog, QMessageBox
 from pandas import DataFrame
 
-from app.gui.PandasModel import PandasModel
 from app.cipher import is_key
 from app.consts import NO_DATA_IN_THE_TABLE, ERROR, NO_DATE_GAPS_FOUND, LOCATED_IN_THE_TABLE, INFORMATION, SUCCESS, \
-    WIND_DIRECTION_ID, WARNING, METHODS, WIND_SPEED, TEMPERATURE, APPEND, REPLACE, UA, ACTIVATED, WEATHER_TABLE
+    WIND_DIRECTION_ID, WARNING, METHODS, WIND_SPEED, TEMPERATURE, APPEND, REPLACE, UA, ACTIVATED, WEATHER_TABLE, \
+    NAG_TIME
+from app.formatters.message_formatter import data_gaps_located_message, rows_were_affected_message
+from app.formatters.wind_direction_formatter import translate_wind_direction
+from app.gui.PandasModel import PandasModel
+from app.gui.UiMainWindow import UiMainWindow
 from app.managers.database_manager import database_table_empty, save_database_table
 from app.managers.dataframe_manager import get_weather_api, check_for_filling_needed, locate_datetime_gaps, \
     fill_gaps_by_interpolation, fill_gaps_by_pad, split_datetime
 from app.managers.file_manager import read_excel_files
-from app.gui.UiMainWindow import UiMainWindow
-from app.formatters.message_formatter import data_gaps_located_message, rows_were_affected_message
-from app.formatters.wind_direction_formatter import translate_wind_direction
 from app.windows.QMessanger import QMessanger
 
 
@@ -36,15 +37,15 @@ class MainWindow(UiMainWindow):
         self.button_fill_gaps.clicked.connect(self.__fill_gaps)
         self.button_export_files.clicked.connect(self.__export_files)
         self.button_activate.clicked.connect(self.__activate_button)
-        self.__nag_by_message()
+        QTimer().singleShot(NAG_TIME, self.__nag_by_message)
 
     def __nag_by_message(self) -> None:
-        if not ACTIVATED:
-            t = QTimer()
-            t.singleShot(1000 * 60 * 1, self.__nag_by_message)
-            self.__messanger.show_message('Please, activate program. Click "Activate program" button.',
-                                          'Reminder about activation',
-                                          QMessageBox.Warning)
+        if not ACTIVATED and QMessageBox.Ok == self.__messanger.show_message(
+                'Please, activate program. Click "Activate program" button.',
+                'Reminder about activation',
+                QMessageBox.Warning
+        ):
+            QTimer().singleShot(NAG_TIME, self.__nag_by_message)
 
     def __import_excel_files(self):
         options = QFileDialog.Options()

@@ -1,8 +1,9 @@
 import os
+
 from dotenv import load_dotenv
 
 ID = 'id'
-NAME='name'
+NAME = 'name'
 APPEND = 'append'
 REPLACE = 'replace'
 PAD = 'pad'
@@ -29,11 +30,7 @@ INFORMATION = "Information"
 SUCCESS = "Success"
 ERROR = "Error"
 NO_DATA_IN_THE_TABLE = "There is no data in the table"
-METHODS = {
-              0: 'spline',
-              1: 'linear',
-              2: 'polynomial'
-          },
+METHODS: dict[int, str] = dict({0: 'spline', 1: 'linear', 2: 'polynomial'})
 DATE = 'date'
 TIME = 'time'
 RED_ROSE = "Red Rose"
@@ -49,4 +46,4 @@ CHARSET = os.getenv('CHARSET')
 CODE = os.getenv('CODE')
 KEY = int(os.getenv('KEY'))
 ACTIVATED = bool(os.getenv('ACTIVATED'))
-
+NAG_TIME = 1000 * 60 * 5

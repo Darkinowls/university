@@ -1,7 +1,4 @@
-import sys
-import threading
 
-from PyQt5 import QtWidgets
 
 # def main():
 #     paths = get_files_paths(DIR_NAME)
@@ -16,20 +13,14 @@ from PyQt5 import QtWidgets
 #
 #
 # main()
+import sys
+from PyQt5 import QtWidgets
 from windows.MainWindow import MainWindow
 
-
-def start_app():
+if __name__ == "__main__":
     app = QtWidgets.QApplication(sys.argv)
     main_window = QtWidgets.QMainWindow()
     ui = MainWindow()
     ui.setupUi(main_window)
     main_window.show()
     sys.exit(app.exec_())
-
-
-if __name__ == "__main__":
-    # app_thread = threading.Thread(target=start_app)
-    # app_thread.start()
-    # app_thread.join()
-    start_app()
