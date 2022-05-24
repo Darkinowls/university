@@ -1,6 +1,6 @@
 import os
 
-PATH = "/home/denis/Documents/university/3kurs2sem/DistributedCalculations/lab1P/docs"
+PATH = "E:/university/3kurs2sem/DistributedCalculations/lab1P/docs"
 
 
 def get_paths(path: str = PATH) -> list[str]:

@@ -37,7 +37,7 @@ def calculate_process_time(func: functools):
 
 
 if __name__ == '__main__':
-    # calculate_process_time(do_first_task)
-    # calculate_process_time(do_second_task)
-    # calculate_process_time(do_third_task) # multiprocessing (4 cores)
+    calculate_process_time(do_first_task)
+    calculate_process_time(do_second_task)
+    calculate_process_time(do_third_task) # multiprocessing (4 cores)
     calculate_process_time(do_third_and_half_task)  # multithreading by jit (nogil=True)

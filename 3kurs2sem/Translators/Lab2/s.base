@@ -1,0 +1,7 @@
+program1 modifiedFactorial
+var
+n , x , result :int;
+modifiedResult :real;
+repeat :boolean
+begin
+end
